@@ -1,0 +1,17 @@
+BANKS:
+  required: true
+
+BANKL:
+  required: true
+  #custom:
+    #module: validators.iban
+    #function: validate_iban
+
+BANKA:
+  required: true
+
+# ORT01:
+  # pattern: '^[^0-9]*$'
+
+PROVZ:
+  max_length: 3

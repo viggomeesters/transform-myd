@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transform-myd"
+version = "17.7.0"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.2", "openpyxl>=3.1", "PyYAML>=6.0"]
+description = "ETL: EXTRACT → SAP Migrate Your Data (LOAD) via YAML"
+readme = "README.md"
+
+[project.scripts]
+myd-transform = "transform_myd.cli:main"
+
+# src-layout discovery
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["transform_myd*"]

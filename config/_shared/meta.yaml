@@ -1,0 +1,11 @@
+# Tekst/encoding defaults (geldt voor alle objecten tenzij overridden)
+encoding:
+  output: "utf-8-sig"   # UTF-8 met BOM → voorkomt 'MÃ¶dling' in Excel/Windows
+  rejects: "utf-8-sig"
+
+text:
+  normalize: "NFC"      # normaliseer Unicode (NFC/NFKC/none)
+  strip_control: true   # verwijder verborgen control chars (behalve CR/LF/TAB)
+  collapse_ws: false    # meerdere spaties naar 1 (false = uit)
+  # LET OP: 'repair_mojibake' is riskant (kan echte 'Ã' beschadigen). Laat uit, tenzij je gericht wilt repareren.
+  repair_mojibake: false

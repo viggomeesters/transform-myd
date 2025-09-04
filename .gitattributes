@@ -1,0 +1,17 @@
+* text=auto
+
+# Code & config altijd LF in de repo
+*.py   text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.toml text eol=lf
+*.md   text eol=lf
+*.csv  text eol=lf
+
+# Windows scripts mogen CRLF houden
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+
+# Binaries nooit aanzitten
+*.xlsx -text
+*.xlsm -text

@@ -1,0 +1,11 @@
+BANKA:
+  "Fortis":    "BNP Paribas"
+BANKS:
+  "GB":    "UK"
+SWIFT:
+  "RABO":    "RABONL2U"
+ORT01:
+  "":    ""
+STRAS:
+  "":    "placeholder 99" # empty to placeholder
+  

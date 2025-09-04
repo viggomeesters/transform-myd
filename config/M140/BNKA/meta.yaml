@@ -1,0 +1,3 @@
+input_file:  "bank_raw.xlsx"
+sheet: 0           # <— zet hier jouw sheetnaam of index (0-based)
+

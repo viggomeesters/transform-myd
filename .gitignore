@@ -1,0 +1,21 @@
+# Python build/venv
+__pycache__/
+*.py[cod]
+*.egg-info/
+src/*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Lokale data & outputs
+archive/
+data/raw/
+data/out/
+data/rejects/
+logs/
+
+# IDE
+.vscode/
+.idea/
+

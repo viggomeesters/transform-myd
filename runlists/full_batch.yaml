@@ -1,0 +1,8 @@
+jobs:
+  - object: M140
+    variant: BNKA
+#  - object: M140
+#    variant: BNKB
+#    input_file: "./extracts/m140_bnkb_latest.xlsx"  # optionele override
+#  - object: M150
+#    variant: LFA1
