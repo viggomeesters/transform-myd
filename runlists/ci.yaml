@@ -2,7 +2,7 @@
 runs:
   - object: M140
     variant: BNKA
-    input: data/raw/bank_raw.xlsx   # of rely on meta.sources
+#    input: data/raw/bank_raw.xlsx   # of rely on meta.sources
     report: true
     reports: [raw, validation]
     sample: 50
