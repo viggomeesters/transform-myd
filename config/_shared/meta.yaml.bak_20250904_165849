@@ -1,5 +1,5 @@
 encoding:
-  output: utf-8
+  output: utf-8-sig
   rejects: utf-8-sig
 csv:
   encoding_out: utf-8
