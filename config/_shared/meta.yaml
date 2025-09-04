@@ -2,6 +2,12 @@
 encoding:
   output: "utf-8-sig"   # UTF-8 met BOM → voorkomt 'MÃ¶dling' in Excel/Windows
   rejects: "utf-8-sig"
+  
+ csv:
+  encoding_out: utf-8        # zónder BOM
+  lineterminator: "\r\n"     # RFC 4180-style
+  quoting: minimal           # of laat weg; standaard is OK
+
 
 text:
   normalize: "NFC"      # normaliseer Unicode (NFC/NFKC/none)
