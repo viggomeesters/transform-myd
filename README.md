@@ -1,7 +1,7 @@
 # transform-myd
 **Doel:** EXTRACT-bestanden omzetten naar SAP *Migrate Your Data* CSV met YAML-configs.
 
-![CI](https://github.com/<YOUR_GITHUB_USERNAME>/transform-myd/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/viggomeesters/transform-myd/actions/workflows/ci.yml/badge.svg)
 
 ## Snelstart (Windows/PowerShell)
 1) Python 3.13 hebben.
